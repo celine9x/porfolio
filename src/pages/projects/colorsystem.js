@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import styles from './style.module.css';
 import Intro from '../../components/Intro';
 import Description from '../../components/Description';
-import Projects from '../../components/Projects';
+import Projects from '../../components/project/index';
 import Nav from '../../app/nav/nav';
 import CustomCursor from '@/components/customcursor/CustomCursor';
 import Footer from '@/app/footer/footer';
