@@ -8,7 +8,7 @@ import Nav from "./nav/nav";
 import About from "./about/about";
 import Break from "./break/break";
 import Contact from "./contact/contact";
-import Header from '../components/Header';
+import Header from '../components/header';
 import Skills from "./skills/skills";
 import Quote from "./quote/quote";
 import Illustration from "./illustration/illustration";

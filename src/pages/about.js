@@ -10,7 +10,7 @@ import styles from '../pages/about/about.module.css';
 import ZoomParallax from '@/components/ZoomParallax/index';
 import { useEffect } from 'react';
 import Lenis from '@studio-freight/lenis'
-import Header from '../components/Header';
+
 
 
 export default function About() {
@@ -28,7 +28,7 @@ export default function About() {
 
     return (
         <main className={styles.main}>
-              <Header/>
+            
             <CustomCursor/>
           
             <ZoomParallax />
