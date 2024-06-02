@@ -1,0 +1,66 @@
+.nav {
+   
+ 
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+    box-sizing: border-box; 
+    position: absolute;
+    top: 0;
+    align-items: center;
+    z-index: 2;
+   
+ 
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+
+.nav p {
+    color: rgb(230, 230, 230); 
+    font-size: 16px;
+    font-family: 'Clash Grotesk';
+    font-weight: 400; 
+    
+}
+
+.about {
+    color: rgb(230, 230, 230); 
+    font-size: 16px;
+    font-family: 'Clash Grotesk';
+    font-weight: 400; 
+    text-decoration: none ;
+}
+
+
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    overflow:hidden;
+}
+.div:hover p {
+    animation: scrollUpAndDown 0.5s ease-in-out;
+   
+}
+
+
+.nav a {
+    color: rgb(230, 230, 230); 
+    font-size: 16px;
+    font-family: 'Clash Grotesk';
+    font-weight: 400; 
+    margin-top: 20px;
+}
+.nav a:hover {
+   color: rgb(159, 159, 159);
+}

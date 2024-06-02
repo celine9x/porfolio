@@ -1,0 +1,44 @@
+.btn-footer {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    padding: 11px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 99px;
+gap: 8px;
+background: rgba(29, 29, 29, 0.5);
+backdrop-filter: blur(10px);
+}
+
+
+.btn-footer p {
+    color: #FFF;
+    text-align: center;
+
+    font-size: 14.805px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.034px; /* 115.053% */
+    letter-spacing: 0.592px;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.1);
+    }
+}
+
+svg.animated-svg {
+    animation: popup 1s linear infinite;
+}
+
+
+

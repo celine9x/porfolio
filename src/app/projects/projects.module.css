@@ -1,0 +1,13 @@
+.main {
+    margin-top: 10vh;
+    color: white;
+ 
+}
+
+.mainTitle {
+    padding: 20px;
+    font-size: 5vw;
+    max-width: 80%;
+    font-weight: 400;
+    font-family: 'NeueMontreal-Book';
+}

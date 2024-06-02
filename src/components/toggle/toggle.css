@@ -1,0 +1,72 @@
+.toggle {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--100, 2px);
+    border-radius: var(--circle, 99px);
+background: var(--bg-primary, #050505);
+border: 1px solid var(--border-primary, #7E7E7E);
+position: relative;
+width: 144px;
+margin-bottom: 12px;
+
+}
+.toggle p {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: Space Grotesk, sans-serif;
+    font-weight: 700   ;
+    text-transform: uppercase;
+}
+.before, .after {
+    display: flex;
+    padding: 4px 12px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 99px ;
+    font-family: Space Grotesk, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    
+
+}
+
+.heading h2 {font-family: Space Grotesk, sans-serif;
+    font-size: 18px;}
+
+.before {
+    background: #FFF;
+    color: #050505;
+}
+.before p {
+    color: black;
+}
+
+.after {
+    color: #7E7E7E;
+}
+.before.toggled p:hover {color:aqua}
+.after p:hover {color:aqua}
+.before.toggled {
+    color: #7E7E7E;
+    background: #000000;
+}
+.before.toggled p {
+    color: #ffffff;
+}
+
+.after.toggled {
+    background: #FFF;
+    color: #050505;
+}
+.after.toggled p {
+    color: black;
+}
+.project-section-image-modes {
+    display: flex;
+    align-items: center;
+    border-radius:24px;
+    margin-top: 12px;
+    overflow: hidden;
+}

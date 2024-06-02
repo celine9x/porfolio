@@ -1,0 +1,48 @@
+.info { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 12px;
+   
+   
+}
+.row {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 70%;
+    gap: 12px;
+    height: 50vh;
+    color: white    ;
+    align-items: flex-start;
+
+    
+
+}
+/* big box */
+.bigbox {
+    flex: 2;
+    font-family:'NeueMontreal-Book';
+    font-size: 30px;
+    margin-top: 0px;
+
+  
+}
+.smallbox {
+    flex: 1;
+    font-family:'NeueMontreal-Book';
+    font-size: 7px;
+    
+ 
+}
+.bigbox p{margin-top: 0;}
+
+
+
+.point {
+    font-family: 'EditorialNewLight';
+   color: grey;
+   margin-left: 5px;
+   margin-right: 5px;
+}

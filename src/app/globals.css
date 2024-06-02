@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'EditorialNewItalic';
+  src: url('../../public/font/PPEditorialNew-Italic.otf');
+}
+
+@font-face {
+  font-family: 'EditorialNewRegular';
+  src: url('../../public/font/PPEditorialNew-Regular.otf');
+}
+
+@font-face {
+  font-family: 'EditorialNewBold';
+  src: url('../../public/font/PPEditorialNew-Ultrabold.otf');
+}
+
+
+
+@font-face {
+  font-family: 'EditorialUltralightItalic';
+  src: url('../../public/font/PPEditorialNew-UltralightItalic.otf');
+}
+
+@font-face {
+  font-family: 'EditorialUltralight';
+  src: url('../../public/font/PPEditorialNew-Ultralight.otf');
+}
+
+@font-face {
+  font-family: 'NeueMontreal-Book';
+  src: url('../../public/font/PPNeueMontreal-Book.otf');
+}
+@font-face {
+  font-family: 'NeueMontreal-Medium';
+  src: url('../../public/font/PPNeueMontreal-Medium.otf');
+}
+
+@font-face {
+  font-family: 'NeueMontreal-Bold';
+  src: url('../../public/font/PPNeueMontreal-Bold.otf');
+}
+@font-face {
+  font-family: 'NeueMontreal-Thin';
+  src: url('../../public/font/PPNeueMontreal-Thin.otf');
+}
+
+@font-face {
+  font-family: 'Syncopate-Bold';
+  src: url('../../public/font/Syncopate-Bold.ttf');
+}
+@font-face {
+  font-family: 'Syncopate-Regular';
+  src: url('../../public/font/Syncopate-Regular.ttf');
+}
+body{
+  font-family: 'Regular';
+  background: #131313;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+body{
+  margin: 0px;
+  cursor:none;
+
+ 
+  
+}
+a {
+  text-decoration: none;
+}
+
+.cursor {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 9999;
+  background-color: #ffffff;
+  pointer-events: none; 
+}
+.follower-cursor {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color:transparent; 
+ position:fixed;
+  z-index:9999;
+  border: 1px solid #ffffff;
+  pointer-events: none; 
+}
