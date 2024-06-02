@@ -5,7 +5,7 @@ import styles from '../app/projects/projects.module.css';
 import '../app/globals.css';
 import Nav from '../app/nav/nav';
 import CustomCursor from '@/components/customcursor/CustomCursor';
-import Footer from '@/app/footer/Footer';
+import Footer from '../app/footer/footer';
 export default function Projects() {
   return (
     <main className={styles.main}>

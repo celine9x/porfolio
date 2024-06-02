@@ -1,6 +1,6 @@
 
 import Spline from '@splinetool/react-spline';
-import './colorsystem.css';
+
 import React from 'react';
 import Nav from '../../app/nav/nav';
 import '../../app/globals.css';

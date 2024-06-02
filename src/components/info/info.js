@@ -1,13 +1,13 @@
 import React from 'react';
 import './info.css';
 import Break from '@/app/break/break';
-import Header from '@/components/Header';
+
 
 const Info = () => {
   return (
     
     <div className='info'>
-      <Header />
+ 
 
       <Break text="01"/>
       <div className="row">
