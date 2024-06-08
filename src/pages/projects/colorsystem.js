@@ -8,6 +8,7 @@ import CustomCursor from '@/components/customcursor/CustomCursor';
 import Footer from '@/app/footer/footer';
 import '../../app/globals.css';
 
+
 export default function ColorSystem() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -37,7 +38,7 @@ export default function ColorSystem() {
       <CustomCursor />
       <Intro />
       <Description />
-      <Projects />
+     
       <Footer />
     </main>
   );
