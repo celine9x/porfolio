@@ -3,10 +3,10 @@ import React, { useEffect } from 'react';
 import './hero.css'
 import Spline from '@splinetool/react-spline';
 import Nav from '../nav/nav';
-import gsap from 'gsap-trial';
-import { SplitText } from "gsap-trial/SplitText";
-import {motion } from 'framer-motion';
-import useMousePosition from '../utils/useMousePosition';
+import gsap from 'gsap';
+import { SplitText } from "./SplitText.min";
+
+
 
  const Hero = () => {
   useEffect(() => {
