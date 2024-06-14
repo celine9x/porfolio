@@ -4,20 +4,24 @@ import Image from 'next/image';
 
 const projects = [
     {
-        title: "Salar de Atacama",
-        src: "salar_de_atacama.jpg"
+        title: "Heuristic Evaluation",
+        src: "heuristic.png"
     },
     {
-        title: "Valle de la luna",
-        src: "valle_de_la_muerte.jpeg"
+        title: "Accessibility Enhance",
+        src: "accessibility .png"
     },
     {
-        title: "Miscanti Lake",
-        src: "miscani_lake.jpeg"
+        title: "Light/Dark Color System",
+        src: "colorsystem.png"
     },
     {
-        title: "Miniques Lagoons",
-        src: "miniques_lagoon.jpg"
+        title: "Tokenization",
+        src: "tokenisation.png"
+    },
+    {
+        title: "Documentation",
+        src: "documentation.png"
     },
 ];
 
@@ -55,10 +59,10 @@ export default function Index() {
                     />
                 </div>
                 <div className={styles.column}>
-                    <p>The flora is characterized by the presence of high elevation wetland, as well as yellow straw, broom sedge, tola de agua and tola amaia.</p>
+                    <p>My software engineering background helps smooth collaboration with developers to establish robust code bases. </p>
                 </div>
                 <div className={styles.column}>
-                    <p>Some, like the southern viscacha, vicuña and Darwins rhea, are classified as endangered species. Others, such as Andean goose, horned coot, Andean gull, puna tinamou and the three flamingo species inhabiting in Chile (Andean flamingo, Chilean flamingo, and Jamess flamingo) are considered vulnerable.</p>
+                    <p>My software engineering background enables smooth collaboration with developers to establish robust code bases. My software engineering background enables smooth collaboration with developers to establish robust code bases.</p>
                 </div>
             </div>
 

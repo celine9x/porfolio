@@ -28,7 +28,7 @@ export default function Index() {
     return (
         <div className={styles.homeHeader}>
             <div className={styles.backgroundImage} ref={background}>
-                <Image src={'/images/background.jpeg'} fill={true} alt="background image" priority={true} />
+                <Image src={'/images/hero.jpg'} fill={true} alt="background image" priority={true} />
             </div>
             <div className={styles.intro}>
                 <div ref={introImage} data-scroll data-scroll-speed="0.3" className={styles.introImage}>

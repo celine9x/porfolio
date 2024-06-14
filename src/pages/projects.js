@@ -11,7 +11,7 @@ export default function Projects() {
     <main className={styles.main}>
       <CustomCursor />
 <Nav/>
-      <h1 className={styles.mainTitle}>I use design and technology to create brands and products that perform, delight, and scale.</h1>
+      <h1 className={styles.mainTitle}>I use design and technology to create digital products that strike balance between easthetic and unisablity. </h1>
       <div className={styles.gallery}>
         <Double projects={[projects[0], projects[1]]}/>
         <Double projects={[projects[2], projects[3]]} reversed={true}/>

@@ -10,6 +10,7 @@
     height: 700px;
     justify-content: space-between;
     gap: 5%;
+    font-family: 'NeueMontreal-Book';
 }
 
 .imageContainer{
@@ -44,7 +45,7 @@
 .projectEl{
     width: 100%;
     color: white;
-    text-transform: uppercase;
+    font-family: 'EditorialNewItalic';
     font-size: 3vw;
     border-bottom: 1px solid white;
     display: flex;

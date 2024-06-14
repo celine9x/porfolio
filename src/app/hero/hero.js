@@ -22,7 +22,11 @@ import { SplitText } from "./SplitText.min";
     <div className="hero">
       <Nav/> 
       <div className="container">
-        <h1 className='split'>multidisciplinary</h1>
+        <h1 className='split'>multi -</h1>
+
+      </div>
+      <div className="container">
+        <h1 className='split'> disciplinary</h1>
         
         
       </div>

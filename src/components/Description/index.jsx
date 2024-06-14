@@ -2,11 +2,13 @@ import React, { useLayoutEffect, useRef } from 'react';
 import styles from './style.module.css';
 
 const phrases = [
-  "Los Flamencos National Reserve",
-  "is a nature reserve located",
-  "in the commune of San Pedro de Atacama",
-  "The reserve covers a total area",
-  "of 740 square kilometres (290 sq mi)"
+  
+ 
+  "My mission is to revamp Egerie's",
+  "inconsistent color system, enhancing UX ",
+  "& fostering better collaboration ",
+  "through a cohesive and scalable design." ,
+  
 ];
 
 export default function Index() {
