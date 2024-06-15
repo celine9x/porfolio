@@ -37,6 +37,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <div className={styles.headerrevealer}></div>
       <LoadingScreen />
       <CustomCursor />
       {showHeader && <Header />}
@@ -51,6 +52,8 @@ export default function Home() {
         <Work />
       </div>
       <Footer />
+      <div className={styles.headerrevealer}></div>
+      <LoadingScreen />
     </main>
   );
 }
