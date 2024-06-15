@@ -57,6 +57,11 @@
   font-family: 'Syncopate-Regular';
   src: url('../../public/font/Syncopate-Regular.ttf');
 }
+
+@font-face {
+  font-family: 'Telegraf-Regular';
+  src: url('../../public/font/PPTelegraf-Regular.otf');
+}
 body{
   font-family: 'Regular';
   background: #131313;

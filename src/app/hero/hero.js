@@ -27,15 +27,10 @@ import { SplitText } from "./SplitText.min";
       </div>
       <div className="container">
         <h1 className='split'> disciplinary</h1>
-        
-        
       </div>
-      
+
       <div className="container">
       <h1 className='split'>designer</h1>
-
-
-        
       </div> 
      
       <div className="description"></div>

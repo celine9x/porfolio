@@ -31,7 +31,7 @@
 }
 .container h1 {
     font-size: 120px;
-    font-family: 'NeueMontreal-Bold';
+    font-family: 'NeueMontreal-Book';
     font-weight:800;
     color: white;
     line-height: 0.8;
@@ -61,25 +61,6 @@
     margin-top: 30px;
  
 }
-
-.typing {
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: none;
-    animation: typing 3.5s steps(40, end),
-                         blink-caret .75s step-end infinite;
-}
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes blink-caret {
-    50% { border-color: transparent }
-}
-
-
 
 
 
