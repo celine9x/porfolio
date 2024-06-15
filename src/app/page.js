@@ -14,6 +14,7 @@ import Quote from "./quote/quote";
 import Illustration from "./illustration/illustration";
 import Footer from "./footer/footer";
 import CustomCursor from '../components/customcursor/CustomCursor';
+import LoadingScreen from './loading-screen/loadingscreen';
 
 export default function Home() {
   const [showHeader, setShowHeader] = React.useState(false);
@@ -36,6 +37,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <LoadingScreen />
       <CustomCursor />
       {showHeader && <Header />}
       <div id="hero">

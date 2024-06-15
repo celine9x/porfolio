@@ -13,7 +13,7 @@ import { SplitText } from "./SplitText.min";
     gsap.registerPlugin(SplitText);
     let mySplitText = new SplitText('.split', {type:"chars"});
     let chars = mySplitText.chars; 
-    gsap.from(chars, {yPercent:100,stagger:0.1,ease:'back.out', duration: 1});
+    gsap.from(chars, {yPercent:100,stagger:0.1,ease:'back.out', duration: 1, delay: 7.5});
   }, []); 
 
 
