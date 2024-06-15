@@ -13,6 +13,7 @@ export const projects = [
         description: "Florist Website and App Design",
         src: "layla.jpg",
         year: 2023,
+        link: "https://www.figma.com/board/kgqsnLBSc9rZV0R2wZnZ6y/Layla---UX-Research?node-id=0-1&t=D5y77B7nLt3RXMAy-1",
     },
     {
         name: "YoTrek",
@@ -20,6 +21,7 @@ export const projects = [
         description: "App Design",
         src: "yotrek.jpg",
         year: 2023,
+        link: "/projects/colorsystem",
     },
     {
         name: "Naraka",
@@ -27,6 +29,7 @@ export const projects = [
         description: "Branding and Packaging Design",
         src: "naraka.jpg",
         year: 2019,
+        link: "https://www.behance.net/gallery/72172873/NARAKA-PROJECT",
     },
     {
         name: "My Human Kit",
@@ -34,6 +37,7 @@ export const projects = [
         description: "App Design for People with Disabilities",
         src: "myhumankit.jpg",
         year: 2023,
+        link: "https://www.figma.com/design/TX0n0qLGkn6Yvd8ckYpuOp/MHK?node-id=253-18601",
     },
     {
         name: "MFA",
@@ -41,6 +45,7 @@ export const projects = [
         description: "Multi Factor Authentication User Flow Design",
         src: "mfa.jpg",
         year: 2023,
+        link: "/projects/nda",
     },
     {
         name: "Incubator",
@@ -48,6 +53,7 @@ export const projects = [
         description: "Human Resource Management Web Design",
         src: "incubator.jpg",
         year: 2021,
+        link: "/projects/nda",
     },
     {
         name: "How I, an intern, inspired my company to focus more on User's Needs",
@@ -55,5 +61,6 @@ export const projects = [
         description: "A true story",
         src: "realstory.jpg",
         year: 2024,
+        link: "/projects/nda",
     }
 ]

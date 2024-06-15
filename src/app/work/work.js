@@ -19,7 +19,7 @@ const projects = [
     src: "mfa.jpg",
     color: "#8C8C8C",
     description: "User Research & Design",
-    link: "/projects/mfa",
+    link: "/projects/nda",
   },
   {
     title: "Layla",

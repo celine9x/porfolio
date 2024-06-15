@@ -11,7 +11,7 @@ import gsap from 'gsap';
 export default function Projects() {
   useEffect(() => {
     let tl = gsap.timeline({defaults: {ease: "SlowMo.easeOut"}});
-    // Targeting elements by class instead of id to apply animation to all
+ 
     tl.to(".create", {y: '0%', duration: 0.7, stagger: 0.4});
   }, []);
 
