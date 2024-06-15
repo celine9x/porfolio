@@ -1,10 +1,10 @@
 import styles from './styles.module.scss';
-import Picturea from '../../../public/images/a.jpeg';
-import Pictureb from '../../../public/images/b.jpeg';
-import Picturec from '../../../public/images/c.jpeg';
-import Pictured from '../../../public/images/d.jpeg'
-import Picturee from '../../../public/images/e.jpeg'
-import Picturef from '../../../public/images/f.jpeg'
+import Picturea from '../../../public/images/e.jpg';
+import Pictureb from '../../../public/images/b.jpg';
+import Picturec from '../../../public/images/c.jpg';
+import Pictured from '../../../public/images/d.jpg'
+import Picturee from '../../../public/images/a.jpg'
+import Picturef from '../../../public/images/f.jpg'
 import Pictureg from '../../../public/images/g.png'
 import Image from 'next/image';
 import { useScroll, useTransform, motion} from 'framer-motion';
