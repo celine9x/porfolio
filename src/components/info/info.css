@@ -14,7 +14,7 @@
     width: 70%;
     gap: 12px;
     height: 50vh;
-    color: white    ;
+    color: white;
     align-items: flex-start;
 
     
@@ -26,6 +26,7 @@
     font-family:'NeueMontreal-Book';
     font-size: 30px;
     margin-top: 0px;
+   
 
   
 }
