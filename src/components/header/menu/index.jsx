@@ -20,7 +20,7 @@ const menu = [
   {
   title: "Contact",
 description: "To Send a FAX",
-images: ['contact1.jpg', 'contact2.jpg'],
+images: ['contact1.jpeg', 'contact2.jpg'],
 link: "https://drive.google.com/drive/folders/12ibxA-TldzMsBBThicUjWxu3NZBoCkAJ?usp=sharing"
   }
 ]
