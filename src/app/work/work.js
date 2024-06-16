@@ -26,7 +26,7 @@ const projects = [
     src: "layla.jpg",
     color: "#EFE8D3",
     description: "User Research & Design",
-    link: "https://www.figma.com/board/kgqsnLBSc9rZV0R2wZnZ6y/Layla---UX-Research?node-id=0-1&t=D5y77B7nLt3RXMAy-1",
+    link: "/projects/layla",
   },
   {
     title: "Naraka",

@@ -9,6 +9,9 @@ const Nav = () => {
         <a className="name">CODE BY LINH NGUYEN</a>
       </Link>
       <div className="center">
+      <Link href="/" passHref legacyBehavior>
+          <a className="work">HOME</a>
+        </Link>
         <Link href="/projects" passHref legacyBehavior>
           <a className="work">WORK</a>
         </Link>

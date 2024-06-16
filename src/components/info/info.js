@@ -4,6 +4,7 @@ import Break from '@/app/break/break';
 import Text1 from '@/components/info/text1/text1';
 import Text2 from '@/components/info/text2/text2';
 import Text3 from '@/components/info/text3/text3';
+import '@/app/globals.css';
 
 const Info = () => {
   return (
