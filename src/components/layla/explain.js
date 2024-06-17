@@ -170,8 +170,8 @@ const Explain = () => {
           <div className="serviceinfo">
             <h1>Tokenisation</h1>
             <p>
-            Naming is hard, and it's even harder when it comes to color tokens as they represent small, repeatable design decisions. Every single component is broken down into such tokens. <br></br> 
-              During this phase, I'm extensively collaborating with the development team to establish an optimal naming convention for tokens. This ensures that when implementing the new color system, it minimizes the workload for both development and design teams while ensuring clarity in the purpose of each token.
+            Naming is hard, and it is even harder when it comes to color tokens as they represent small, repeatable design decisions. Every single component is broken down into such tokens. <br></br> 
+              During this phase, I am extensively collaborating with the development team to establish an optimal naming convention for tokens. This ensures that when implementing the new color system, it minimizes the workload for both development and design teams while ensuring clarity in the purpose of each token.
             </p>
           </div>
           <div className="serviceimg">
