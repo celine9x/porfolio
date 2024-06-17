@@ -1,44 +1,32 @@
-import React, { useEffect } from 'react';
-import styles from './style.module.css';
-import Intro from '../../components/Intro';
-import Description from '../../components/Description';
-import Projects from '../../components/projects/index';
+'use client';
 import Nav from '../../app/nav/nav';
+import '../../app/globals.css';
+import { useEffect } from 'react';
+import Lenis from 'lenis'
 import CustomCursor from '@/components/customcursor/CustomCursor';
 import Footer from '@/app/footer/footer';
-import '../../app/globals.css';
+import './layla.css';
+import Explain from '@/components/layla/explain';
+export default function Layla() {
 
+  useEffect( () => {
+    const lenis = new Lenis()
 
-export default function ColorSystem() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      (async () => {
-        const LocomotiveScroll = (await import('locomotive-scroll')).default;
-        const locomotiveScroll = new LocomotiveScroll();
-
-        const { gsap } = await import('gsap');
-        const { ScrollTrigger } = await import('gsap/ScrollTrigger');
-
-        gsap.registerPlugin(ScrollTrigger);
-
-        // You can now use ScrollTrigger with gsap
-        ScrollTrigger.create({
-          trigger: '.yourElementClass',
-          pin: true,
-          start: 'top top',
-          end: 'bottom bottom',
-        });
-      })();
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
     }
-  }, []);
+
+    requestAnimationFrame(raf)
+  }, [])
 
   return (
-    <main className={styles.main}>
-      <Nav />
-      <CustomCursor />
-      <Intro />
-      <Description />
-      <Projects />
+    <main>
+        <Nav/>
+        <CustomCursor />
+        <Explain  />
+        
+
       <Footer />
     </main>
   );

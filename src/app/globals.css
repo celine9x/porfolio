@@ -110,3 +110,26 @@ a {
   border: 1px solid #ffffff;
   pointer-events: none; 
 }
+
+
+/* lenis scroll */
+html.lenis,
+html.lenis body {
+  height: 500vh;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
