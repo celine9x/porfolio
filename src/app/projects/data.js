@@ -5,7 +5,7 @@ export const projects = [
         description: "Heuristic evaluation and redesign of the Egerie color system.",
         src: "egerie.jpg",
         year: 2024,
-        link: "/projects/colorsystem",
+        link: "/work/colorsystem",
     },
     {
         name: "Layla",
@@ -21,7 +21,7 @@ export const projects = [
         description: "App Design",
         src: "yotrek.jpg",
         year: 2023,
-        link: "/projects/colorsystem",
+        link: "/work/colorsystem",
     },
     {
         name: "Naraka",
@@ -45,7 +45,7 @@ export const projects = [
         description: "Multi Factor Authentication User Flow Design",
         src: "mfa.jpg",
         year: 2023,
-        link: "/projects/nda",
+        link: "/work/nda",
     },
     {
         name: "Incubator",
@@ -53,7 +53,7 @@ export const projects = [
         description: "Human Resource Management Web Design",
         src: "incubator.jpg",
         year: 2021,
-        link: "/projects/nda",
+        link: "/work/nda",
     },
     {
         name: "How I, an intern, inspired my company to focus more on User's Needs",
@@ -61,6 +61,6 @@ export const projects = [
         description: "A true story",
         src: "realstory.jpg",
         year: 2024,
-        link: "/projects/nda",
+        link: "/work/nda",
     }
 ]

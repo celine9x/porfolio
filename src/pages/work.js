@@ -8,7 +8,7 @@ import CustomCursor from '@/components/customcursor/CustomCursor';
 import Footer from '../app/footer/footer';
 import gsap from 'gsap';
 
-export default function Projects() {
+export default function Work() {
   useEffect(() => {
     let tl = gsap.timeline({defaults: {ease: "SlowMo.easeOut"}});
  

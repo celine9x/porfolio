@@ -12,7 +12,7 @@ const Nav = () => {
       <Link href="/" passHref legacyBehavior>
           <a className="work">HOME</a>
         </Link>
-        <Link href="/projects" passHref legacyBehavior>
+        <Link href="/work" passHref legacyBehavior>
           <a className="work">WORK</a>
         </Link>
         <Link href="/about" passHref legacyBehavior>
