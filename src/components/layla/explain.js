@@ -114,8 +114,8 @@ const Explain = () => {
           <div className="serviceinfo">
             <h1>Color analysis</h1>
             <p>
-            I analysed Egerie's existing color design system to identify inconsistencies and areas for improvement. The analysis reveals a lack of coherence and scalability in the current system, leading to confusion and inefficiencies in design and development processes.<br></br>
-            Then, I needed to determine which colors were essential to keep and which could be removed if they weren't necessary or if their shades were redundant with others. From these colors, I organized and classified them into base colors to lay the foundation for building palettes.
+            I analysed Egerie existing color design system to identify inconsistencies and areas for improvement. The analysis reveals a lack of coherence and scalability in the current system, leading to confusion and inefficiencies in design and development processes.<br></br>
+            Then, I needed to determine which colors were essential to keep and which could be removed if they weren not necessary or if their shades were redundant with others. From these colors, I organized and classified them into base colors to lay the foundation for building palettes.
             </p>
           </div>
           <div className="serviceimg">
