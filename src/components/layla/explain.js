@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import 'intersection-observer';
 import './explain.css';
+import Image from 'next/image';
 import Footer from '@/app/footer/footer';
 
 const Explain = () => {
