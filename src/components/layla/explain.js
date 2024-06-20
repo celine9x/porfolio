@@ -190,7 +190,7 @@ const Explain = () => {
           </div>
           <div className="serviceimg">
             <div className="img">
-              <img src="/images/tokenisation.png" alt="IT Consultancy" />
+    <img src="/images/tokenisation.png" alt="IT Consultancy" />
             </div>
           </div>
         </div>
