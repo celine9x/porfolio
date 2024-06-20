@@ -78,8 +78,8 @@ const Contentlayla = () => {
       </section>
       <section className="outro">
         <h1>
-          This page doesn't exist anymore... but that's okay. <br />
-          We'll get you right back on the track!
+          This page doesn not exist anymore... but that is okay. <br />
+          We will get you right back on the track!
         </h1>
       </section>
     </div>
