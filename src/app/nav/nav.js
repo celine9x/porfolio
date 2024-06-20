@@ -13,7 +13,7 @@ const Nav = () => {
           <a className="work">HOME</a>
         </Link>
         <Link href="/work" passHref legacyBehavior>
-          <a className="work">WORK</a>
+          <a className="wowrk">WORK</a>
         </Link>
         <Link href="/about" passHref legacyBehavior>
           <a className="about">ABOUT</a>

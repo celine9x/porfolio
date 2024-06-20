@@ -1,5 +1,5 @@
 .container{
-    width: 100%;
+    width: 100vw;
     height: 100%;
 }
 .col h1 {
@@ -69,7 +69,7 @@ p{
   
   .serviceinfo {
     flex: 2;
-    width: 100%;
+    width: 100vh;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -97,8 +97,7 @@ p{
     overflow: hidden;
   }
 
-/* explain.css */
-/* lenis scroll */
+
 html.lenis,
 html.lenis body {
   height: 500vh;
@@ -118,4 +117,10 @@ html.lenis body {
 
 .lenis.lenis-smooth iframe {
   pointer-events: none;
+}
+
+.serviceinfo h2 {
+  color: rgb(145, 2, 2);
+  font-size: 36px;
+  font-weight: 500;
 }

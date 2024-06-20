@@ -13,7 +13,7 @@ export const projects = [
         description: "Florist Website and App Design",
         src: "layla.jpg",
         year: 2023,
-        link: "https://www.figma.com/board/kgqsnLBSc9rZV0R2wZnZ6y/Layla---UX-Research?node-id=0-1&t=D5y77B7nLt3RXMAy-1",
+        link: "/work/layla",
     },
     {
         name: "YoTrek",

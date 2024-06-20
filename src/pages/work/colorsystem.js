@@ -5,9 +5,10 @@ import { useEffect } from 'react';
 import Lenis from 'lenis'
 import CustomCursor from '@/components/customcursor/CustomCursor';
 import Footer from '@/app/footer/footer';
-import './layla.css';
+import './colorsystem.css';
 import Explain from '@/components/layla/explain';
-export default function Layla() {
+
+export default function ColorSystem() {
 
   useEffect( () => {
     const lenis = new Lenis()
@@ -25,9 +26,8 @@ export default function Layla() {
         <Nav/>
         <CustomCursor />
         <Explain  />
-        
 
-      <Footer />
+       
     </main>
   );
 }

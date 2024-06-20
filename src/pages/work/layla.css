@@ -1,0 +1,4 @@
+.fullWidthSpline {
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Adjust height as needed, or remove if not needed */
+}

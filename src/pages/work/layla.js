@@ -1,45 +1,34 @@
-import React, { useEffect } from 'react';
-import styles from './style.module.css';
-import Intro from '../../components/Intro';
-import Description from '../../components/Description';
-import Projects from '../../components/projects/index';
+
+import Spline from '@splinetool/react-spline';
+import './layla.css';
+import React from 'react';
 import Nav from '../../app/nav/nav';
+import '../../app/globals.css';
 import CustomCursor from '@/components/customcursor/CustomCursor';
 import Footer from '@/app/footer/footer';
-import '../../app/globals.css';
+import Content1 from '@/components/contents/content1/content1';
+import Header from '@/components/header';
 
 
-export default function ColorSystem() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      (async () => {
-        const LocomotiveScroll = (await import('locomotive-scroll')).default;
-        const locomotiveScroll = new LocomotiveScroll();
-
-        const { gsap } = await import('gsap');
-        const { ScrollTrigger } = await import('gsap/ScrollTrigger');
-
-        gsap.registerPlugin(ScrollTrigger);
-
-        // You can now use ScrollTrigger with gsap
-        ScrollTrigger.create({
-          trigger: '.yourElementClass',
-          pin: true,
-          start: 'top top',
-          end: 'bottom bottom',
-        });
-      })();
-    }
-  }, []);
-
+export default function MFA() {
   return (
-    <main className={styles.main}>
-      <Nav />
-      <CustomCursor />
-      <Intro />
-      <Description />
-      <Projects />
-      <Footer />
-    </main>
+    <div className='main'>
+      
+   
+   <Nav/>
+        <CustomCursor />
+        <Content1 />
+   
+
+      
+   
+     
+
+
+        
+        <Footer />
+
+     
+    </div>
   );
 }

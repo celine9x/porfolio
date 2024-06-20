@@ -62,6 +62,11 @@
   font-family: 'Telegraf-Regular';
   src: url('../../public/font/PPTelegraf-Regular.otf');
 }
+
+@font-face {
+  font-family: 'Playground-Medium';
+  src: url('../../public/font/PPPlayground-Medium.otf');
+}
 body{
   font-family: 'NeueMontreal-Book';
   background: #131313;

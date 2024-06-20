@@ -9,7 +9,7 @@ import Footer from '@/app/footer/footer';
 const Explain = () => {
   useEffect(() => {
     const initGSAP = async () => {
-      // Dynamically import gsap and ScrollTrigger
+     
       const { gsap } = await import('gsap');
       const { ScrollTrigger } = await import('gsap/ScrollTrigger');
       const { default: Lenis } = await import('lenis');
@@ -193,8 +193,13 @@ const Explain = () => {
             </div>
           </div>
         </div>
+      
+
+        
+      
       </section>
-     
+      <Footer />
+
     </div>
   );
 };
