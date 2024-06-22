@@ -18,9 +18,9 @@ const Nav = () => {
         <Link href="/about" passHref legacyBehavior>
           <a className="about">ABOUT</a>
         </Link>
-      </div>
-      <a href="https://drive.google.com/drive/folders/12ibxA-TldzMsBBThicUjWxu3NZBoCkAJ?usp=sharing">RESUME</a>
-    </div>
+     </div>
+<a href="https://drive.google.com/drive/folders/12ibxA-TldzMsBBThicUjWxu3NZBoCkAJ?usp=sharing" target="_blank" rel="noopener noreferrer">RESUME</a>
+</div>
   );
 }
 
