@@ -11,7 +11,7 @@ const Illustration = () => {
      
 
           <div className={styles.bigbox}>
-          <a href="https://www.figma.com/design/CvyW7jj2zzc4BzTinGfock/Layla?node-id=198-4223&t=CeEPz7944IWZ3tyx-1" target="_blank" rel="noopener noreferrer">
+          <a href="/work/colorsystem" target="_blank" rel="noopener noreferrer">
         <video src="../videos/Layla.mp4"  autoPlay muted loop />
         </a>
        
