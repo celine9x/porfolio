@@ -11,7 +11,7 @@ const Illustration = () => {
      
 
           <div className={styles.bigbox}>
-          <a href="/work/colorsystem" target="_blank" rel="noopener noreferrer">
+          <a href="/work/layla" target="_blank" rel="noopener noreferrer">
         <video src="../videos/Layla.mp4"  autoPlay muted loop />
         </a>
        
