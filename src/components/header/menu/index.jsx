@@ -9,7 +9,7 @@ const menu = [
     title: "Work",
     description: "To See Everything",
     images: ['projects1.jpg', 'projects2.jpg'],
-    link: "/projects"
+    link: "/work"
   },
   {
     title: "About",
