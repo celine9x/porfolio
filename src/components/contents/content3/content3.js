@@ -1,24 +1,25 @@
-// WaterRippleEffect.js
-'use client'
-import React, { useEffect } from 'react';
-import $ from 'jquery';
-import './jquery.ripples-min';
+import React, { useEffect, useRef } from 'react';
 import './styles.css';
 
-const WaterRipple = () => {
-  useEffect(() => {
-    $('#ripple').ripples({
-      resolution: 512,
-      dropRadius: 20,
-      perturbance: 0.04,
-    });
+const WaterRippleEffect = () => {
+  const rippleRef = useRef(null);
 
-    return () => {
-      $('#ripple').ripples('destroy');
-    };
+  useEffect(() => {
+    import('./jquery.ripples-min').then(() => {
+      const $ = require('jquery');
+      $(rippleRef.current).ripples({
+        resolution: 512,
+        dropRadius: 20,
+        perturbance: 0.04,
+      });
+
+      return () => {
+        $(rippleRef.current).ripples('destroy');
+      };
+    });
   }, []);
 
-  return <div className="main" id="ripple"></div>;
+  return <div className="main" ref={rippleRef}></div>;
 };
 
-export default WaterRipple;
+export default WaterRippleEffect;
