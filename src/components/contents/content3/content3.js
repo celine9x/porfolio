@@ -1,4 +1,5 @@
 // WaterRippleEffect.js
+'use client'
 import React, { useEffect } from 'react';
 import $ from 'jquery';
 import './jquery.ripples-min';
