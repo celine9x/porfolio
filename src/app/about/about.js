@@ -6,6 +6,7 @@ import { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Button from '../../components/button/button';
+import WaterRipple from '@/components/contents/content3/content3';
 
 import Break from '../break/break';
 import Link from 'next/link';
@@ -51,19 +52,21 @@ export default function About() {
   return (
     <main className={styles.main}>
       <Break text="About me" />
+
       <Link href="/about">
         <div className={styles.right}>
           <p>More</p>
         </div>
       </Link>
       <div className={styles.center}>
-        <Image 
+      <WaterRipple />
+        {/*<Image 
           className={styles.image}
           src="/images/me.png"
           alt="Me"
           width={500} // Set appropriate width
           height={500} // Set appropriate height
-        />
+        />*/}
       </div>
       <div className={styles.left}>
         <p>I&apos;m based in Toulon.<br /> I have 3 years experience <br />in designing digital products.</p>
