@@ -71,12 +71,12 @@ export default function About() {
       <div className={styles.left}>
         <p>I&apos;m based in Toulon.<br /> I have 3 years experience <br />in designing digital products.</p>
       </div>
-      <div className={styles.sliderContainer}>
+       {/*<div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
           <p ref={firstText}>Linh nguyen -</p>
           <p ref={secondText}>Linh nguyen -</p>
         </div>
-      </div>
+      </div>*/}
     </main>
   );
 }

@@ -2,15 +2,16 @@
   display: flex;
   font-size: 60px;
   line-height: 1;
-  padding: 40px;
-  width: 50%; // Take 50% of the page width
-  color: rgb(255, 255, 255);
+
+  width: 50%; 
+  color: #ec4e39;
   flex-wrap: wrap;
   font-family: 'EditorialNewItalic';
-  justify-content: center; // Center the content horizontally
-  align-items: center; // Center the content vertically
-  margin: auto; // Center the paragraph horizontally
-  margin-bottom: 200px; // Add space at the bottom
+  justify-content: center; 
+  align-items: center; 
+  margin: auto; 
+  margin-bottom: 100px; 
+ 
 
   .word{
     position: relative;
@@ -18,7 +19,8 @@
     margin-top: 12px;
     .shadow{
       position: absolute;
-      opacity: 5%;
+      opacity: 10%;
+      color: white;
     }
   }
 }

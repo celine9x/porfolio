@@ -1,7 +1,7 @@
 .main{
   position: relative;
   display: flex;
-  height: 100vh;
+  height: 80vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
