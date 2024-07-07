@@ -43,7 +43,7 @@ export default function Home() {
 <LoadingScreen />
 */}
       <CustomCursor />
-      {showHeader && <Header />}
+   
       <div id="hero">
         <Hero />
       </div>
