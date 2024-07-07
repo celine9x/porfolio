@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import './style.module.css';
+
 const calculateRandomBlockDelay = (rowIndex, totalRows) => {
   const blockDelay = Math.random() * 0.5;
   const rowDelay = (totalRows - rowIndex - 1) * 0.05;
@@ -7,7 +8,7 @@ const calculateRandomBlockDelay = (rowIndex, totalRows) => {
 };
 
 const Transition = (Page) => {
-  return () => (
+  const TransitionComponent = () => (
     <>
       <Page />
 
@@ -54,6 +55,9 @@ const Transition = (Page) => {
       </div>
     </>
   );
+
+  TransitionComponent.displayName = 'TransitionComponent';
+  return TransitionComponent;
 };
 
 export default Transition;
