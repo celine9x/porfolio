@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Footer from '../app/footer/footer';
-import Nav from '../app/nav/nav';
+
 import Info from '../components/info/info';
 import '../app/globals.css'; 
 import CustomCursor from '@/components/customcursor/CustomCursor';
@@ -36,7 +36,9 @@ export default function About() {
         
             
             <Info/>
+          
             <Footer/>
+            
         </main>
     )
 }

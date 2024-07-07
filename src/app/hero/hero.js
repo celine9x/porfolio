@@ -6,23 +6,20 @@ import Nav from '../nav/nav';
 import gsap from 'gsap';
 import { SplitText } from "./SplitText.min";
 
-
-
-
  const Hero = () => {
   useEffect(() => {
     gsap.registerPlugin(SplitText);
     let mySplitText = new SplitText('.split', {type:"chars"});
     let chars = mySplitText.chars; 
-    gsap.from(chars, {yPercent:100,stagger:0.1,ease:'back.out', duration: 0.6,});
+    gsap.from(chars, {yPercent:120,stagger:0.1,ease:'back.out', duration: 0.6,});
   }, []); 
 
 // Inside Hero component
 useEffect(() => {
   const handleResize = () => {
-    // Adjust JavaScript behavior based on screen size if necessary
+ 
     if (window.innerWidth < 768) {
-      // Possibly adjust animation parameters or disable complex animations
+
     }
   };
 

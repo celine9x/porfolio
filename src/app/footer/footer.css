@@ -4,7 +4,7 @@
   align-items: center;
   text-align: center;
   padding: 20px;
-  background-color: #8e8e8e;
+  background-color: #313131;
   width: 100%; /* Ensure footer takes full width of its parent */
 }
 
@@ -12,6 +12,7 @@
   font-size: 100px;
   font-weight: 900;
   font-family: 'NeueMontreal-Bold';
+  color: white;
 }
 
 .Footer-content {
@@ -23,6 +24,7 @@
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'NeueMontreal-Medium';
+  color: white;
   
 }
 
