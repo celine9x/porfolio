@@ -69,7 +69,7 @@ export default function About() {
         />
       </div>
       <div className={styles.left}>
-        <p>I&apos;m based in Toulon.<br /> I have 3 years experience <br />in designing digital products.</p>
+        <p> I have 3 years experience in designing digital products.</p>
       </div>
       {/* <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
