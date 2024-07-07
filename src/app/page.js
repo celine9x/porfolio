@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Work from "./work/work";
 import Hero from "./hero/hero";
-import Nav from "./nav/nav";
+
 import About from "./about/about";
 import Break from "./break/break";
 import Contact from "./contact/contact";

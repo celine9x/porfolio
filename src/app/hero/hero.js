@@ -8,6 +8,7 @@ import { SplitText } from "./SplitText.min";
 
 
 
+
  const Hero = () => {
   useEffect(() => {
     gsap.registerPlugin(SplitText);
@@ -16,7 +17,18 @@ import { SplitText } from "./SplitText.min";
     gsap.from(chars, {yPercent:100,stagger:0.1,ease:'back.out', duration: 1, delay: 0.5});
   }, []); 
 
+// Inside Hero component
+useEffect(() => {
+  const handleResize = () => {
+    // Adjust JavaScript behavior based on screen size if necessary
+    if (window.innerWidth < 768) {
+      // Possibly adjust animation parameters or disable complex animations
+    }
+  };
 
+  window.addEventListener('resize', handleResize);
+  return () => window.removeEventListener('resize', handleResize);
+}, []);
 
   return (
     <div className="hero">

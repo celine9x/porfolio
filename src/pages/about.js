@@ -9,7 +9,7 @@ import styles from '../pages/about/about.module.css';
 
 import ZoomParallax from '@/components/ZoomParallax/index';
 import { useEffect } from 'react';
-import Lenis from '@studio-freight/lenis'
+import Lenis from '@studio-freight/lenis';
 
 
 

@@ -6,7 +6,7 @@ import { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Button from '../../components/button/button';
-import WaterRipple from '@/components/contents/content3/content3';
+
 
 import Break from '../break/break';
 import Link from 'next/link';
@@ -46,7 +46,7 @@ export default function About() {
 
     requestAnimationFrame(animate);
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+ 
   }, []);
 
   return (
@@ -59,19 +59,19 @@ export default function About() {
         </div>
       </Link>
       <div className={styles.center}>
-      <WaterRipple />
-        {/*<Image 
+
+        <Image 
           className={styles.image}
           src="/images/me.png"
           alt="Me"
-          width={500} // Set appropriate width
-          height={500} // Set appropriate height
-        />*/}
+          width={500} 
+          height={500} 
+        />
       </div>
       <div className={styles.left}>
         <p>I&apos;m based in Toulon.<br /> I have 3 years experience <br />in designing digital products.</p>
       </div>
-       {/*<div className={styles.sliderContainer}>
+      {/* <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
           <p ref={firstText}>Linh nguyen -</p>
           <p ref={secondText}>Linh nguyen -</p>
