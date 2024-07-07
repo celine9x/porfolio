@@ -19,21 +19,9 @@ import LoadingScreen from './loading-screen/loadingscreen';
 export default function Home() {
   const [showHeader, setShowHeader] = React.useState(false);
 
-  React.useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+ 
 
-  const handleScroll = () => {
-    const heroBottom = document.getElementById('hero').getBoundingClientRect().bottom;
-    if (heroBottom <= 0) {
-      setShowHeader(true);
-    } else {
-      setShowHeader(false);
-    }
-  };
+
 
   return (
     <main className={styles.main}>
