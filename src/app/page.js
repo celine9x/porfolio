@@ -43,7 +43,7 @@ export default function Home() {
 <LoadingScreen />
 */}
       <CustomCursor />
-   
+      <Header/>
       <div id="hero">
         <Hero />
       </div>
@@ -53,8 +53,9 @@ export default function Home() {
       <Illustration />
       <div id="work">
         <Work />
+        <Footer />
       </div>
-      <Footer />
+ 
       <div className={styles.headerrevealer}></div>
      
     </main>

@@ -39,3 +39,12 @@
 }
 
 
+
+@media (max-width: 768px) {
+    .project h2 {
+      font-size: 30px;
+    }
+    .project{
+        padding: 20px;
+    }
+  }

@@ -60,16 +60,18 @@ export default function About() {
       </Link>
       <div className={styles.center}>
 
-        <Image 
-          className={styles.image}
-          src="/images/me.png"
-          alt="Me"
-          width={500} 
-          height={500} 
-        />
+      <div className={styles.imageContainer}>
+  <Image 
+    src="/images/me.png"
+    alt="Me"
+    layout="responsive"
+    width={250} 
+    height={250} 
+  />
+</div>
       </div>
       <div className={styles.left}>
-        <p> I have 3 years experience in designing digital products.</p>
+        <p> With years of experience in designing digital products, I have a diverse skill set and a well-rounded mindset. </p>
       </div>
       {/* <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>

@@ -6,7 +6,7 @@ import Info from '../components/info/info';
 import '../app/globals.css'; 
 import CustomCursor from '@/components/customcursor/CustomCursor';
 import styles from '../pages/about/about.module.css';
-
+import Header from '../components/header';
 import ZoomParallax from '@/components/ZoomParallax/index';
 import { useEffect } from 'react';
 import Lenis from '@studio-freight/lenis';
@@ -30,10 +30,10 @@ export default function About() {
         <main className={styles.main}>
             
             <CustomCursor/>
-          
+          <Header/>
             <ZoomParallax />
           
-            <Nav/>
+        
             
             <Info/>
             <Footer/>

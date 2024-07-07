@@ -6,6 +6,12 @@ import { useState } from 'react';
 
 const menu = [
   {
+    title: "Home",
+    description: "Back to the basic",
+    images: ['projects1.jpg', 'projects2.jpg'],
+    link: "/"
+  },
+  {
     title: "Work",
     description: "To See Everything",
     images: ['projects1.jpg', 'projects2.jpg'],
@@ -18,10 +24,11 @@ const menu = [
     link: "/about"
   },
   {
-  title: "Contact",
+  title: "Résumé",
 description: "To Send a FAX",
 images: ['contact1.jpeg', 'contact2.jpg'],
-link: "https://drive.google.com/drive/folders/12ibxA-TldzMsBBThicUjWxu3NZBoCkAJ?usp=sharing"
+link: "https://drive.google.com/file/d/1MDmnQ7eSvOJXNBOcgZrHv1A7ke6vEFOp/view",
+newTab: true
   }
 ]
 

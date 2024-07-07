@@ -2,11 +2,11 @@
 import React from 'react';
 import styles from './illustration.module.css';
 import Break from '@/app/break/break';
-import Spline from '@splinetool/react-spline';
+
 const Illustration = () => {
   return (
     <div className={styles.container}>
-        <Break text="work"/>
+   
         <div className={styles.row}> 
      
 
@@ -48,7 +48,7 @@ const Illustration = () => {
             </div>
            
         </div>   
-        <p className={styles.selected}>case study </p>
+       
     </div>
   );
 };

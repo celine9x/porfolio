@@ -7,6 +7,7 @@ import Nav from '../app/nav/nav';
 import CustomCursor from '@/components/customcursor/CustomCursor';
 import Footer from '../app/footer/footer';
 import gsap from 'gsap';
+import Header from '../components/header';
 
 export default function Work() {
   useEffect(() => {
@@ -18,7 +19,7 @@ export default function Work() {
   return (
     <main className={styles.main}>
       <CustomCursor />
-      <Nav />
+      <Header />
       <div className={styles.container}>
         <h1 className="create">I use design and technology to create</h1>
       </div>

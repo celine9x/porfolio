@@ -94,6 +94,7 @@ z-index: 1;
   color: rgb(239, 239, 239); 
   top: 50%;
   top: calc(50% +20px);
+  max-width: 300px;
 }
 .left p {
   font-size: 20px;
@@ -110,5 +111,29 @@ z-index: 1;
    font-size: 10px;
    
   }
-  .center {width: 100%;}
+  .center {width: 100}
+}
+/* about.module.css */
+.imageContainer {
+  position: relative; 
+  max-width: 400px; 
+  margin: auto; 
+}
+
+
+/* Media query for devices with a max-width of 768px (Tablets and below) */
+@media (max-width: 768px) {
+  
+  .imageContainer {
+    max-width: 250px; /* Adjust the max-width as needed for smaller devices */
+    margin: 0 auto; /* Center the image container */
+  
+  
+  }
+  .right {width: 100px;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 50px);
+    display: none
+  }
 }
